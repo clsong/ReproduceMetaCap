@@ -1,12 +1,31 @@
-Package: reproduce
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Package: ReproduceMetaCap
+Title: Reproduce "Metapopulation persistence can be inferred from incomplete surveys"
+Version: 1.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Chuliang", "Song", , "clsong.ecology@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7490-8626"))
+Description: This paper reproduces the figures in the paper "Metapopulation persistence can be inferred from incomplete surveys" by Chuliang Song, Marie-Josée Fortin, and Andrew Gonzalez
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.1
+Imports: 
+    magrittr,
+    dplyr,
+    ggplot2,
+    mgcv,
+    spatstat.random,
+    tidyr,
+    stats,
+    purrr,
+    ggthemr,
+    broom,
+    patchwork,
+    tibble,
+    furrr,
+    ggridges,
+    paletteer
+Remotes: Mikata-Project/ggthemr
+Depends: 
+    R (>= 2.10)
+LazyData: true

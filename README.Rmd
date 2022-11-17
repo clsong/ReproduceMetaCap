@@ -1,0 +1,38 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ReproduceMetaCap
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of this package is to reproduce the paper “Metapopulation persistence can be inferred from incomplete surveys” by Chuliang Song, Marie-Josée Fortin, and Andrew Gonzalez.
+
+
+## Installation
+
+You can install the development version of ReproduceMetaCap from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("clsong/ReproduceMetaCap")
+```
+
+## Reproduce
+The main figures can be reproduced simply by running *plot_figure_Number*. For example, figure 3 can be reproduced as
+```{r dpi=300, warning=F, message=F}
+library(ReproduceChickenEgg)
+plot_figure_3()
+```
