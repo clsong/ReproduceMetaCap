@@ -11,7 +11,7 @@
 #' @import furrr
 #' @import ggridges
 #' @import paletteer
-#' @import spatstat
+#' @import spatstat.geom
 #' @importFrom stats var dist rnorm runif
 NULL
 

@@ -25,7 +25,7 @@ Imports:
     furrr,
     ggridges,
     paletteer,
-    spatstat
+    spatstat.geom
 Remotes: Mikata-Project/ggthemr
 Depends: 
     R (>= 2.10)
