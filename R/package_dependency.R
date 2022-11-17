@@ -11,21 +11,8 @@
 #' @import furrr
 #' @import ggridges
 #' @import paletteer
+#' @import spatstat
 #' @importFrom stats var dist rnorm runif
 NULL
 
 globalVariables(".")
-
-# library(dplyr)
-# library(tidyr)
-# library(ggplot2)
-# library(spatstat.random)
-# library(mgcv)
-# library(purrr)
-# library(stats)
-# library(ggthemr)
-# library(broom)
-# library(tibble)
-# library(patchwork)
-# library(ggridges)
-# library(paletteer)

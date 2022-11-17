@@ -24,7 +24,8 @@ Imports:
     tibble,
     furrr,
     ggridges,
-    paletteer
+    paletteer,
+    spatstat
 Remotes: Mikata-Project/ggthemr
 Depends: 
     R (>= 2.10)
