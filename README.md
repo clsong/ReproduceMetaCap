@@ -26,7 +26,7 @@ The main figures can be reproduced simply by running
 *plot_figure_Number*. For example, figure 3 can be reproduced as
 
 ``` r
-library(ReproduceChickenEgg)
+library(ReproduceMetaCap)
 plot_figure_3()
 ```
 
